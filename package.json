@@ -15,7 +15,7 @@
     "superagent": "^5.1.0"
   },
   "dependencies": {
-    "adafruit-neotrellis": "^0.1.0",
+    "adafruit-neotrellis": "^0.3.0",
     "dotenv": "^8.0.0",
     "raspberrypi-adafruit-trellis": "^1.1.0"
   }
