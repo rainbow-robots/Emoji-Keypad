@@ -44,7 +44,7 @@ trellis.on('Button3', () => {
 });
 
 trellis.on('Button4', () => {
-  cconst devil = '😈';
+  const devil = '😈';
   emojiStory += devil;
 });
 
