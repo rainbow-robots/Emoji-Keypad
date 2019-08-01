@@ -2,7 +2,7 @@ const NeoTrellis = require('adafruit-neotrellis');
 const trellis = new NeoTrellis();
 const request = require('superagent');
 
-function rainbowButtons() {
+// function rainbowButtons() {
   trellis.changeColor(0, 227, 33, 23);
   trellis.changeColor(1, 249, 38, 33);
   trellis.changeColor(2, 250, 107, 34);
@@ -19,15 +19,15 @@ function rainbowButtons() {
   trellis.changeColor(13, 124, 91, 218);
   trellis.changeColor(14, 210, 38, 130);
   trellis.changeColor(15, 249, 57, 128);
-}
+// }
 
-function buttonsOff() {
-  [...Array(16)].forEach((i) => {
-    trellis.changeColor(i, 0, 0, 0);
-  });
-}
+// rainbowButtons();
 
-rainbowButtons();
+// function buttonsOff() {
+//   [...Array(16)].forEach((i) => {
+//     trellis.changeColor(i, 0, 0, 0);
+//   });
+// }
 
 function SendEmojis() {
   return request
@@ -35,7 +35,7 @@ function SendEmojis() {
     .send({ emojiStory })
     .then(res => {
       console.log('AHHHHHH', res.body);
-      buttonsOff();
+      // buttonsOff();
     })
     .catch(console.log);
 }
