@@ -4,7 +4,22 @@ const request = require('superagent');
 
 // change button 0 to red
 // (index, r, g, b)
-trellis.changeColor(0, 240, 175, 215)
+trellis.changeColor(0, 227, 33, 23);
+trellis.changeColor(1, 249, 38, 33);
+trellis.changeColor(2, 250, 107, 34);
+trellis.changeColor(3, 254, 216, 3);
+trellis.changeColor(4, 255, 251, 1);
+trellis.changeColor(5, 253, 243, 79);
+trellis.changeColor(6, 142, 250, 11);
+trellis.changeColor(7, 59, 210, 20);
+trellis.changeColor(8, 55, 189, 26);
+trellis.changeColor(9, 47, 203, 245);
+trellis.changeColor(10, 26, 154, 246);
+trellis.changeColor(11, 3, 52, 239);
+trellis.changeColor(12, 117, 32, 159);
+trellis.changeColor(13, 124, 91, 218);
+trellis.changeColor(14, 210, 38, 130);
+trellis.changeColor(15, 249, 57, 128);
 
 function SendEmojis() {
   return request
