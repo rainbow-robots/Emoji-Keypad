@@ -2,15 +2,9 @@
   "name": "emoji-keypad",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "Keypad.js",
   "scripts": {
-    "test": "jest --verbose --runInBand",
-    "test:watch": "npm run test -- --watch",
-    "start": "node server.js",
-    "start:watch": "nodemon server.js"
-  },
-  "jest": {
-    "testEnvironment": "node"
+    "start": "node Keypad.js"
   },
   "keywords": [],
   "author": "",
@@ -18,16 +12,11 @@
   "devDependencies": {
     "@types/jest": "^24.0.16",
     "eslint": "^6.1.0",
-    "jest": "^24.8.0",
-    "nodemon": "^1.19.1",
-    "superagent": "^5.1.0",
-    "supertest": "^4.0.2"
+    "superagent": "^5.1.0"
   },
   "dependencies": {
     "adafruit-neotrellis": "^0.1.0",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.6.7",
     "raspberrypi-adafruit-trellis": "^1.1.0"
   }
 }
