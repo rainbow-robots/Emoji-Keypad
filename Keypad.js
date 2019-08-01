@@ -2,9 +2,9 @@ const NeoTrellis = require('adafruit-neotrellis');
 const trellis = new NeoTrellis();
 const request = require('superagent');
 
-// // change button 0 to red
-// // (index, r, g, b)
-// trellis.changeColor(0, 255, 0, 0)
+// change button 0 to red
+// (index, r, g, b)
+trellis.changeColor(0, 240, 175, 215)
 
 function SendEmojis() {
   return request
@@ -97,5 +97,3 @@ trellis.on('Button14', () => {
   const hundred = '💯';
   emojiStory += hundred;
 });
-
-
