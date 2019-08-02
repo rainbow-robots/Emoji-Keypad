@@ -24,6 +24,7 @@ function rainbowButtons() {
 rainbowButtons();
 
 function buttonsOff() {
+  console.log('buttons off');
   [...Array(16)].forEach((i) => {
     trellis.changeColor(i, 0, 0, 0);
   });
