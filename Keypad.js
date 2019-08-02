@@ -18,7 +18,7 @@ function rainbowButtons() {
   trellis.changeColor(12, 117, 32, 159);
   trellis.changeColor(13, 124, 91, 218);
   trellis.changeColor(14, 210, 38, 130);
-  trellis.changeColor(15, 249, 57, 128);
+  trellis.changeColor(15, 0, 0, 0);
 }
 
 rainbowButtons();
