@@ -37,7 +37,7 @@ function SendEmojis() {
     .then(res => {
       console.log('AHHHHHH', res.body);
       buttonsOff();
-      setTimeout(rainbowButtons, 2000);
+      setTimeout(rainbowButtons, 1000);
     })
     .catch(console.log);
 }
