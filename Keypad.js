@@ -25,7 +25,7 @@ rainbowButtons();
 
 function buttonsOff() {
   console.log('buttons off');
-  [...Array(16)].forEach((i) => {
+  [...Array(16)].forEach((_, i) => {
     trellis.changeColor(i, 0, 0, 0);
   });
 }
@@ -37,7 +37,7 @@ function SendEmojis() {
     .then(res => {
       console.log('AHHHHHH', res.body);
       buttonsOff();
-      setTimeout(rainbowButtons, 5000);
+      setTimeout(rainbowButtons, 2000);
     })
     .catch(console.log);
 }
